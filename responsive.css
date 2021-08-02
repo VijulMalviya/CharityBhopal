@@ -1,0 +1,54 @@
+@media screen and (max-width:576px) {
+    nav{
+       flex-direction: column;
+    }
+
+    .background h1{
+        font-size: 3rem;
+    }
+    .home-text .home-btn, .alertmsg .alert-btn{
+        width: 10rem;
+    }
+    .projects{
+        flex-direction: column;
+       }
+    .about-text,.about-img{
+        height: 40vh;
+    }   
+    .team{
+        height: 50vh;
+        margin: 10px;
+    }
+    .donatenow{
+        height: 150vh;
+    }
+    .logo{
+        padding: 0rem 1rem;  
+    }
+  
+    .alertmsg{
+        margin-top: -4rem;
+        background-image: -webkit-linear-gradient(0deg, #f40f68 0%, #f86e3d 55%, #fbcd11 100%);
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navlinks{
+        top: 7%;
+        
+    }
+    .navlinks ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navlinks ul li{
+        margin: 0;
+
+    }
+    form a{
+        width: 10rem;
+    }
+}
